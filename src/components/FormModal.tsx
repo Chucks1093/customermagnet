@@ -12,8 +12,8 @@ export default function FormModal({ isOpen, onClose }: Props) {
       onClick={(e) => { if (e.target === e.currentTarget) onClose() }}
     >
       <div
-        className="relative rounded-2xl w-full max-w-[520px] overflow-hidden" style={{ background: '#F7FAFC' }}
-        style={{ maxHeight: 'calc(100dvh - 32px)' }}
+        className="relative rounded-2xl w-full max-w-[520px] overflow-hidden"
+        style={{ background: '#F7FAFC', maxHeight: 'calc(100dvh - 32px)' }}
       >
         <iframe
           src="https://api.leadconnectorhq.com/widget/form/ow57hZFfRizVdIKUUQfZ"

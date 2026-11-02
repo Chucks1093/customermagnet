@@ -1,0 +1,73 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-poppins: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+
+  --color-navy: #0B1F4D;
+  --color-deep: #0E2A5C;
+  --color-blue: #1F5BFF;
+  --color-blue-dark: #1546CC;
+  --color-sky: #EAF0FF;
+  --color-paper: #F2F4F8;
+  --color-ink: #0B1530;
+  --color-muted: #4D5B78;
+  --color-badge: #FF5A3C;
+}
+
+:root {
+  --navy: #0B1F4D;
+  --deep: #0E2A5C;
+  --blue: #1F5BFF;
+  --blue-dark: #1546CC;
+  --sky: #EAF0FF;
+  --paper: #F2F4F8;
+  --ink: #0B1530;
+  --muted: #4D5B78;
+  --white: #FFFFFF;
+  --badge: #FF5A3C;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+  color: var(--ink);
+  background: #fff;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+}
+
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+button { font: inherit; }
+:focus-visible { outline: 3px solid #7FA4FF; outline-offset: 3px; }
+
+/* ---- Orbit / chip animations ---- */
+@keyframes cm-orbit { to { transform: rotate(360deg); } }
+@keyframes cm-upright {
+  from { transform: rotate(calc(-1 * var(--a))); }
+  to   { transform: rotate(calc(-1 * var(--a) - 360deg)); }
+}
+@keyframes cm-ping {
+  from { transform: scale(.9); opacity: .9; }
+  to   { transform: scale(1.25); opacity: 0; }
+}
+@keyframes cm-spin { to { transform: translate(-50%,-50%) rotate(360deg); } }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .cm-orbit-spin, .cm-field-ring { animation: none !important; }
+  .cm-chip { animation: none !important; transform: rotate(calc(-1 * var(--a))) !important; }
+}

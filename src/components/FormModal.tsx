@@ -12,24 +12,23 @@ export default function FormModal({ isOpen, onClose }: Props) {
       onClick={(e) => { if (e.target === e.currentTarget) onClose() }}
     >
       <div
-        className="relative bg-white rounded-2xl w-full max-w-[520px] overflow-hidden"
+        className="relative rounded-2xl w-full max-w-[520px] overflow-hidden" style={{ background: '#F7FAFC' }}
         style={{ maxHeight: 'calc(100dvh - 32px)' }}
       >
+        <iframe
+          src="https://api.leadconnectorhq.com/widget/form/ow57hZFfRizVdIKUUQfZ"
+          title="Free Business Blueprint"
+          className="block w-full border-0"
+          style={{ height: 'min(690px, calc(100dvh - 32px))', display: 'block', width: 'calc(100% + 17px)' }}
+          loading="lazy"
+        />
         <button
           onClick={onClose}
           aria-label="Close"
-          className="absolute top-3 right-3 z-10 w-8 h-8 rounded-full bg-sky text-navy text-lg border-0 cursor-pointer flex items-center justify-center hover:opacity-70 transition-opacity"
+          className="absolute top-3 right-3 z-10 w-8 h-8 rounded-full bg-white text-navy text-lg border-0 cursor-pointer flex items-center justify-center hover:opacity-80 transition-opacity shadow-md"
         >
           ×
         </button>
-        <div className="pt-10" style={{ height: 'min(690px, calc(100dvh - 56px))', display: 'flex', flexDirection: 'column' }}>
-          <iframe
-            src="https://api.leadconnectorhq.com/widget/form/ow57hZFfRizVdIKUUQfZ"
-            title="Free Business Blueprint"
-            className="block w-full border-0 rounded-xl flex-1"
-            loading="lazy"
-          />
-        </div>
       </div>
     </div>
   )

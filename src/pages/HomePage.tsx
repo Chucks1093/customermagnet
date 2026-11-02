@@ -8,6 +8,7 @@ import Services from '../components/Services'
 import FAQ from '../components/FAQ'
 import About from '../components/About'
 import Footer from '../components/Footer'
+import BookingCTA from '../components/BookingCTA'
 import ServiceModal from '../components/ServiceModal'
 import FormModal from '../components/FormModal'
 
@@ -56,6 +57,7 @@ export default function HomePage() {
         <Stats />
         <Blueprint onOpenForm={openForm} />
         <Services onOpenService={(key) => setServiceKey(key)} />
+        <BookingCTA />
         <FAQ />
         <About onOpenForm={openForm} />
       </main>

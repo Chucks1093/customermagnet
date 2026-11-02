@@ -14,7 +14,7 @@ const details: Record<string, {
     intro: "Stay visible without living on your phone. We plan, create and post content that keeps your business in front of the right people, so they get to know you and trust you before they ever reach out.",
     items: [
       'A content plan and monthly posting calendar',
-      'Graphics, carousels and short videos',
+      'Graphics, carousels and videos',
       'Captions written in your voice',
       'Posting and scheduling on the platforms you choose',
       'A monthly check in on what\'s working',
@@ -129,6 +129,14 @@ export default function ServiceModal({ serviceKey, onClose, onOpenForm }: Props)
             >
               Get my free business blueprint
             </button>
+            <a
+              href="https://api.leadconnectorhq.com/widget/booking/UnHj38Wb1aM0yjqvGqVy"
+              target="_blank"
+              rel="noopener"
+              className="block text-center text-white/80 text-[0.95rem] mt-4 underline hover:text-white transition-colors"
+            >
+              Book your free clarity call
+            </a>
           </>
         )}
       </div>

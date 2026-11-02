@@ -22,7 +22,7 @@ export default function FormModal({ isOpen, onClose }: Props) {
         >
           ×
         </button>
-        <div className="pt-10 px-3 pb-3" style={{ height: 'min(690px, calc(100dvh - 56px))', display: 'flex', flexDirection: 'column' }}>
+        <div className="pt-10" style={{ height: 'min(690px, calc(100dvh - 56px))', display: 'flex', flexDirection: 'column' }}>
           <iframe
             src="https://api.leadconnectorhq.com/widget/form/ow57hZFfRizVdIKUUQfZ"
             title="Free Business Blueprint"

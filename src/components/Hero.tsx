@@ -217,14 +217,14 @@ export default function Hero({ onOpenForm }: Props) {
             style={{ left: '-2%', top: '30%', boxShadow: '0 12px 28px -12px rgba(11,31,77,.5)' }}
           >
             <span className="w-[10px] h-[10px] rounded-full bg-[#22C55E]" />
-            +50 Leads captured
+            5000+ Leads captured
           </div>
           <div
             className="cm-tag absolute z-[4] bg-white rounded-full px-4 py-[10px] font-semibold text-[.9rem] flex items-center gap-2 whitespace-nowrap"
             style={{ right: '-2%', top: '58%', boxShadow: '0 12px 28px -12px rgba(11,31,77,.5)' }}
           >
             <span className="w-[10px] h-[10px] rounded-full bg-[#22C55E]" />
-            3× more reach
+            5× more reach
           </div>
         </div>
       </div>

@@ -88,7 +88,7 @@ export default function Hero({ onOpenForm }: Props) {
       `}</style>
       <div className="max-w-[1120px] mx-auto px-[22px]">
         <h1
-          className="font-black uppercase leading-[1.02] tracking-[-0.01em] mx-auto mb-[26px] max-w-[22ch] text-ink"
+          className="font-extrabold uppercase leading-[1.02] tracking-[-0.01em] mx-auto mb-[26px] max-w-[22ch] text-ink"
           style={{ fontSize: 'clamp(2rem, 6vw, 3.6rem)', margin: '0 auto 26px' }}
         >
           Stop chasing leads. Start attracting <span style={{ color: '#1F5BFF' }}>raving fans</span> who want what you have and can afford you.

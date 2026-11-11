@@ -3,27 +3,27 @@ import { useState } from 'react'
 const faqs = [
   {
     q: 'What is the free Business Blueprint?',
-    a: "It's a simple plan for your business. It shows where leads and customers are slipping away, the system that would fix it, and what to focus on in the next 90 days.",
+    a: 'A simple roadmap that shows you what your business really needs. It walks you through your strategy, your marketing, your customer experience and what you measure, so you know exactly where you stand.',
   },
   {
     q: 'Is it really free?',
-    a: "Yes. There's no cost and no obligation. If you want help putting it in place, we can talk about that. If not, the blueprint is yours to keep.",
+    a: "Yes. There's no cost and no obligation. The blueprint is yours to keep.",
   },
   {
     q: 'Who is it for?',
-    a: 'Service businesses that already get enquiries but struggle to follow up, stay consistent on social media, or keep track of leads. That includes insurance agents, real estate professionals, coaches, consultants and agencies.',
+    a: 'Business owners who are tired of chasing leads and want more raving fans: insurance agents, real estate professionals, coaches, consultants and service businesses.',
   },
   {
     q: 'How do I get it?',
-    a: 'Tap any "Get my free business blueprint" button and fill in the short form. It\'s sent to your email, so check your promotions or spam folder if you don\'t see it.',
+    a: "Tap \"Get your free business blueprint\" and fill in the short form. It arrives in your inbox with a one-click download. If you don't see it, check your promotions or spam folder.",
   },
   {
-    q: 'What happens after I request it?',
-    a: "You can use the blueprint on your own, or reach out to talk it through. We never pressure anyone into buying.",
+    q: 'How do I book a clarity call?',
+    a: "The booking link is in the same email as your blueprint, right below the download. Complete your blueprint first. We only hold clarity calls with people who've done the homework.",
   },
   {
     q: 'Do you close sales for me?',
-    a: 'No. We build and run the system that attracts, captures and follows up with your leads. You stay in charge of the conversations that close the sale.',
+    a: 'No. We bring raving fans to you and keep them coming back. You stay in charge of the conversations that close the sale.',
   },
 ]
 

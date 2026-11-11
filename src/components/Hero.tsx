@@ -88,23 +88,23 @@ export default function Hero({ onOpenForm }: Props) {
       `}</style>
       <div className="max-w-[1120px] mx-auto px-[22px]">
         <h1
-          className="font-black uppercase leading-[1.02] tracking-[-0.01em] mx-auto mb-[26px] max-w-[14ch] text-ink"
-          style={{ fontSize: 'clamp(2.5rem, 8.5vw, 5rem)', margin: '0 auto 26px' }}
+          className="font-black uppercase leading-[1.02] tracking-[-0.01em] mx-auto mb-[26px] max-w-[22ch] text-ink"
+          style={{ fontSize: 'clamp(2rem, 6vw, 3.6rem)', margin: '0 auto 26px' }}
         >
-          Stop chasing leads. Start attracting customers.
+          Stop chasing leads. Start attracting <span style={{ color: '#1F5BFF' }}>raving fans</span> who want what you have and can afford you.
         </h1>
         <p
-          className="max-w-[30ch] mx-auto mb-9 text-ink"
-          style={{ fontSize: 'clamp(1.15rem, 3.6vw, 1.45rem)' }}
+          className="max-w-[52ch] mx-auto mb-9 text-ink"
+          style={{ fontSize: 'clamp(1.1rem, 3.2vw, 1.3rem)', lineHeight: 1.5 }}
         >
-          We build the social media, email, CRM and funnels that bring customers to you and keep them coming back.
+          We help raving fans find you and keep them coming back to buy more. You're one relationship from changing your future. We find that raving fan for you, over and over again.
         </p>
 
         <button
           onClick={onOpenForm}
-          className="block w-full max-w-[520px] mx-auto border-0 cursor-pointer text-center no-underline bg-blue text-white font-bold text-[1.05rem] tracking-[.02em] uppercase py-5 px-7 rounded-full hover:bg-blue-dark active:translate-y-px transition-colors relative z-[6]"
+          className="block w-full max-w-[520px] mx-auto border-0 cursor-pointer text-center no-underline bg-blue text-white font-black text-[1.1rem] tracking-[.04em] uppercase py-5 px-7 rounded-full hover:bg-blue-dark active:translate-y-px transition-colors relative z-[6]"
         >
-          Get my free business blueprint
+          Get your free business blueprint
         </button>
 
         {/* Magnet stage */}

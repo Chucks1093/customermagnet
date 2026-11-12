@@ -51,7 +51,7 @@ export default function Blueprint({ onOpenForm }: Props) {
           </span>
 
           {/* Sheets graphic — hidden on small screens */}
-          <div className="relative h-[220px] max-w-[640px] mx-auto my-5 hidden sm:block" aria-hidden="true">
+          <div className="relative h-[220px] max-w-[640px] mx-auto my-5" aria-hidden="true">
             <Sheet
               title="1: Attract"
               rows={[['Social','Who sees you'],['Content','What you post'],['Offer','Why they reach out'],['Capture','Where leads land']]}
